@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-let isConnected = false; // DB 연결 상태 추적
+let isConnected = false; // DB 연결 상태 추적dd
 
 const initDB = async () => {
   if (isConnected) return; // 이미 연결된 경우, 재시도하지 않음
